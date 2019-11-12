@@ -1,0 +1,17 @@
+{
+  "name": "taxiappsocket",
+  "version": "1.0.0",
+  "description": "Socket TaxiApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Alberto Valdes Rangel",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "socket.io": "^2.3.0"
+  }
+}

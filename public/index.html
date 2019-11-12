@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba de socket publico/privado</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="messages"></div>
+    <form onsubmit="return addMessage(this)">
+        <input type="text" id="username" placeholder="Tu Nombre" >
+        <input type="text" id="texto" placeholder="Cuéntanos algo...">
+        <input type="submit" value="Enviar!">
+    </form>
+
+    <form onsubmit="return addConectarPrivado(this)">
+        <input type="text" id="cont_username" placeholder="Tu Nombre" >
+        <input type="text" id="cont_userpriv" placeholder="Nombre Privado" >
+        <input type="submit" value="Conectar">
+    </form>
+
+
+    <form onsubmit="return addMessagePrivado(this)">
+        <input type="text" id="priv_username" placeholder="Tu Nombre" >
+        <input type="text" id="priv_userpriv" placeholder="Nombre Privado" >
+        <input type="text" id="priv_texto" placeholder="Cuéntanos algo...">
+        <input type="submit" value="Enviar!">
+    </form>
+
+
+
+</body>
+</html>
